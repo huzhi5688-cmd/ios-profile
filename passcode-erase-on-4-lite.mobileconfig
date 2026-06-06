@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+
+    <dict>
+      <key>PayloadDescription</key>
+      <string>Enforces a 4-digit passcode and erases the device after 4 failed unlock attempts.</string>
+      <key>PayloadDisplayName</key>
+      <string>Passcode Policy</string>
+      <key>PayloadIdentifier</key>
+      <string>com.local.erase-on-4-lite.passcode.C8E2A1F0-5D34-4B67-A912-3F7E8C4D6B9A</string>
+      <key>PayloadType</key>
+      <string>com.apple.mobiledevice.passwordpolicy</string>
+      <key>PayloadUUID</key>
+      <string>C8E2A1F0-5D34-4B67-A912-3F7E8C4D6B9A</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadOrganization</key>
+      <string>Personal Device Policy</string>
+
+      <key>forcePIN</key>
+      <true/>
+      <key>allowSimple</key>
+      <true/>
+      <key>requireAlphanumeric</key>
+      <false/>
+      <key>minLength</key>
+      <integer>4</integer>
+      <key>maxFailedAttempts</key>
+      <integer>4</integer>
+      <key>maxInactivity</key>
+      <integer>1</integer>
+      <key>maxGracePeriod</key>
+      <integer>0</integer>
+      <key>pinHistory</key>
+      <integer>1</integer>
+    </dict>
+
+  </array>
+
+  <key>PayloadDescription</key>
+  <string>Passcode policy: 4-digit PIN, erase after 4 failed attempts, 1-min auto-lock.</string>
+  <key>PayloadDisplayName</key>
+  <string>Erase on 4 - Lite</string>
+  <key>PayloadIdentifier</key>
+  <string>com.local.erase-on-4-lite.profile.D9F3B2E1-6A45-4C78-B023-4G8F9D5E7C0B</string>
+  <key>PayloadOrganization</key>
+  <string>Personal Device Policy</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>D9F3B2E1-6A45-4C78-B023-4G8F9D5E7C0B</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
